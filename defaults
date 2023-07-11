@@ -1,0 +1,39 @@
+# -*- mode: shell-script; -*-
+#
+#   Coova-Chilli Default Configurations.
+HS_LOC_ID="1"
+HS_LOC_NAME="MyWifi"
+
+#############################################################
+
+HS_WANIF=eth0              # WAN Interface toward the Internet
+HS_LANIF=wlan0-1           # Subscriber Interface for client devices
+HS_UAMPORT=3990            # HotSpot UAM Port (on subscriber network)
+HS_UAMUIPORT=4990          # HotSpot UAM "UI" Port (on subscriber network, for embedded portal)
+
+HS_DNS1=8.8.8.8
+HS_DNS2=8.8.4.4
+
+HS_NETWORK=192.168.182.0
+HS_NETMASK=255.255.255.0
+HS_UAMLISTEN=192.168.182.1
+HS_DNS_DOMAIN=key.chillispot.info
+HS_DYNIP=192.168.182.0
+HS_DYNIP_MASK=255.255.255.0
+HS_RADIUS=radiusm.mywifi.com
+HS_RADIUS2=radiuss.mywifi.com
+HS_UAMHOMEPAGE=""
+HS_UAMFORMAT="http://access.mywifi.com"
+HS_MODE=hotspot
+HS_TYPE=chillispot
+HS_RADCONF="off"
+HS_UAMSERVER="access.mywifi.com"
+HS_AAA="radius"
+HS_UAMALLOW="212.118.48.0/24,212.158.173.0/24,91.227.52.0/24,91.227.53.0/24,91.200.28.0/24,91.200.30.0/24,91.232.115.0/26,webmoney.ru,wmtransfer.com,webmoney.com.mx"
+HS_UAMDOMAINS="login.wmtransfer.com,security.webmoney.ru,access.mywifi.com,webmoney.ru,wmtransfer.com,webmoney.com.mx"
+
+HS_NASID=""
+HS_UAMSECRET=""
+HS_RADSECRET=""
+
+
