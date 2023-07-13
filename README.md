@@ -3,3 +3,4 @@
 # https://mywifi.com/
 # http://abills.net.ua/forum/viewtopic.php?f=6&t=6952
 # /usr/sbin/chilli -d -f
+# /etc/init.d/chilli start
