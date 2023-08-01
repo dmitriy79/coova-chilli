@@ -1,8 +1,7 @@
 #/bin/sh
 
 opkg update
-opkg install coova-chilli 
-opkg install kmod-tun 
+opkg install coova-chilli dnsmasq dropbear kmod-ipt-conntrack kmod-mac80211 kmod-tun softflowd
 rm /etc/init.d/chilli
 rm /etc/chilli/defaults
 wget -O /etc/init.d/chilli https://www.mywifi.com/scripts/chilli
